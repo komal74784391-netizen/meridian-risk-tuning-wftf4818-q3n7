@@ -1,0 +1,20 @@
+{
+  "run_id": "rn-7c41",
+  "display_name": "baseline-lr5e5",
+  "state": "finished",
+  "created_at": "2026-10-29T08:41:00Z",
+  "artifact": "review-note compressor v0.7",
+  "config": {
+    "learning_rate": 5e-05,
+    "batch_size": 32,
+    "max_new_tokens": 256,
+    "dataset_snapshot": "ledger-mix-v1"
+  },
+  "summary": {
+    "step": 240,
+    "avg_review_chars": 491.59,
+    "macro_f1": 0.892,
+    "train_loss": 1.05
+  },
+  "history_rows": 240
+}

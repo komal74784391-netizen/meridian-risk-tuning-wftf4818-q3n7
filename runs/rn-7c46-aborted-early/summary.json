@@ -1,0 +1,20 @@
+{
+  "run_id": "rn-7c46",
+  "display_name": "aborted-early",
+  "state": "crashed",
+  "created_at": "2026-10-30T10:16:00Z",
+  "artifact": "review-note compressor v0.7",
+  "config": {
+    "learning_rate": 0.0002,
+    "batch_size": 64,
+    "max_new_tokens": 256,
+    "dataset_snapshot": "ledger-mix-v0"
+  },
+  "summary": {
+    "step": 150,
+    "avg_review_chars": 417.62,
+    "macro_f1": 0.842,
+    "train_loss": 1.42
+  },
+  "history_rows": 150
+}

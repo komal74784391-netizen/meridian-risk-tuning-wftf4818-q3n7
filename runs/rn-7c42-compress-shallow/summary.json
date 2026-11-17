@@ -1,0 +1,20 @@
+{
+  "run_id": "rn-7c42",
+  "display_name": "compress-shallow",
+  "state": "finished",
+  "created_at": "2026-10-29T11:05:00Z",
+  "artifact": "review-note compressor v0.7",
+  "config": {
+    "learning_rate": 8e-05,
+    "batch_size": 32,
+    "max_new_tokens": 256,
+    "dataset_snapshot": "vendor-notes-v3"
+  },
+  "summary": {
+    "step": 240,
+    "avg_review_chars": 448.37,
+    "macro_f1": 0.889,
+    "train_loss": 1.18
+  },
+  "history_rows": 240
+}

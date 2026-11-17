@@ -1,0 +1,20 @@
+{
+  "run_id": "rn-7c45",
+  "display_name": "wide-context",
+  "state": "finished",
+  "created_at": "2026-10-30T07:31:00Z",
+  "artifact": "review-note compressor v0.7",
+  "config": {
+    "learning_rate": 5e-05,
+    "batch_size": 16,
+    "max_new_tokens": 256,
+    "dataset_snapshot": "ledger-mix-v1"
+  },
+  "summary": {
+    "step": 240,
+    "avg_review_chars": 478.2,
+    "macro_f1": 0.876,
+    "train_loss": 1.21
+  },
+  "history_rows": 240
+}
